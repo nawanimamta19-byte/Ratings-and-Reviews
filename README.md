@@ -1,42 +1,101 @@
-📊 Restaurant Reviews – EDA & Sentiment Analysis
-🚀 Project Overview
+📊 Restaurant Reviews – EDA & Sentiment Analysis 🚀
 
-This project performs Exploratory Data Analysis (EDA) and Sentiment Analysis on restaurant reviews to understand customer feedback, rating behavior, and sentiment trends.
 
-📁 Dataset
+📌 Project Overview
 
-The dataset contains:
+This project focuses on performing Exploratory Data Analysis (EDA) and Sentiment Analysis on restaurant reviews to understand customer feedback, rating patterns, and sentiment trends.
+The analysis helps identify customer satisfaction levels and key experience insights from textual reviews.
 
-Restaurant ID
-Review text
-Rating
+📂 Dataset
+
+The dataset contains the following columns:
+
+Restaurant ID,
+Review Text,
+Rating (1–5),
 Review Date
-🧹 Data Preprocessing
+
+🛠️ Data Preprocessing
+
+
+The following preprocessing steps were performed before analysis:
+
 Handled missing review values
-Converted review date into datetime format
-Extracted month for time-based analysis
-📊 Analysis & Graphs Summary
-⭐ Ratings Analysis: Distribution of restaurant ratings and average rating trends over time
-💬 Sentiment Analysis: Reviews classified as Positive, Neutral, and Negative using TextBlob
-📈 Trend Analysis: Monthly sentiment score and comparison of rating vs sentiment
-📝 Text Analysis: Most frequent words in positive and negative reviews
-📏 Review Length Analysis: Negative reviews found to be longer than positive reviews
-📊 Key Visualizations
+Converted review dates into datetime format
+Extracted month information for time-based analysis
+Cleaned and prepared review text for sentiment analysis
+
+📈 Analysis Performed
+
+
+
+⭐ Ratings Analysis
+
+
+Distribution of ratings (1–5 stars)
+Average rating trends over time
+Monthly rating analysis
+💬 Sentiment Analysis
+
+
+Reviews were classified using TextBlob into:
+
+Positive
+Neutral
+Negative
+
+📊 Trend Analysis
+
+
+Monthly sentiment score trends
+Comparison of ratings vs sentiment
+
+📝 Text Analysis
+
+
+Most frequent words in positive reviews
+Most frequent words in negative reviews
+
+📏 Review Length Analysis
+
+
+Compared review lengths across sentiments
+Observed that negative reviews are generally longer and more descriptive
+
+📉 Key Visualizations
+
+
+
+The project includes the following visualizations:
+
 Average Rating per Month
 Sentiment Distribution
 Sentiment Trend Over Time
 Rating vs Sentiment (Dual Axis Plot)
 Rating Distribution
 Review Length by Sentiment
-🔍 Key Insights
-Most restaurant reviews are positive
-Ratings and sentiment are strongly correlated
-Negative reviews contain more detailed feedback
-Common positive words: good, great, tasty, excellent
-🛠️ Tools Used
 
-Python, Pandas, Matplotlib, Seaborn, TextBlob
+🔍 Key Insights
+
+
+Majority of reviews are positive
+Ratings and sentiment are strongly aligned
+Negative reviews tend to be more descriptive
+Common positive words include:
+good, great, tasty, excellent
+
+🧰 Tools & Libraries Used
+
+
+Python
+Pandas
+Matplotlib
+Seaborn
+TextBlob
 
 📌 Conclusion
 
-The analysis shows overall positive customer sentiment toward restaurants, with strong alignment between ratings and review sentiment, and useful insights into customer experience patterns.
+
+
+The analysis indicates overall positive customer sentiment and a strong correlation between ratings and review sentiment.
+The project provides valuable insights into customer experience patterns and restaurant feedback trends.
