@@ -1,9 +1,9 @@
-📊 Restaurant Reviews – EDA & Sentiment Analysis 🚀
+📊 ChatGpt Reviews – EDA & Sentiment Analysis 🚀
 
 
 📌 Project Overview
 
-This project focuses on performing Exploratory Data Analysis (EDA) and Sentiment Analysis on restaurant reviews to understand customer feedback, rating patterns, and sentiment trends.
+This project focuses on performing Exploratory Data Analysis (EDA) and Sentiment Analysis on chatgpt reviews to understand customer feedback, rating patterns, and sentiment trends.
 The analysis helps identify customer satisfaction levels and key experience insights from textual reviews.
 
 📂 Dataset
